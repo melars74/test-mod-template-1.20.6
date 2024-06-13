@@ -2,6 +2,7 @@ package net.matt.test.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.matt.test.TestMod;
+import net.matt.test.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -25,8 +26,12 @@ public class ModItemGroups {
 
                             Note that order will be maintained.
                          */
+
+                        //items
                         entries.add(ModItems.BOX);
                         entries.add(ModItems.CARDBOARD);
+                        //blocks
+                        entries.add(ModBlocks.BOX_BLOCK);
 
                     })).build());
 

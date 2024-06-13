@@ -1,5 +1,8 @@
 {
   "item.test-mod.box": "Box",
-  "item.test-mod.box": "Cardboard",
-  "itemgroup.box": "Box Test Group"
+  "item.test-mod.cardboard": "Cardboard",
+
+  "itemgroup.box": "Box Test Group",
+
+  "block.test-mod.box_block": "Block of Box :3"
 }
