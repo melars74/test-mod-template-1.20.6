@@ -10,10 +10,19 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
+    /*
+        Add any new items here. Follow CAPS_UNDERSCORE naming convention. Usually
+        will want default settings from 'Item'
+     */
     public static final Item BOX = registerItem("box", new Item(new Item.Settings()));
+    public static final Item CARDBOARD = registerItem("cardboard", new Item(new Item.Settings()));
 
+    /*
+        This is how to add to an already existing item group, see registerModItems()
+     */
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(BOX);
+        entries.add(CARDBOARD);
     }
 
     private static Item registerItem(String name, Item item) {

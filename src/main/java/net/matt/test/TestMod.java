@@ -2,6 +2,7 @@ package net.matt.test;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.matt.test.item.ModItemGroups;
 import net.matt.test.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,7 +14,7 @@ public class TestMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 	}
 }

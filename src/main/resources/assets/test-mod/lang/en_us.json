@@ -1,3 +1,5 @@
 {
-  "item.test-mod.box": "Box"
+  "item.test-mod.box": "Box",
+  "item.test-mod.box": "Cardboard",
+  "itemgroup.box": "Box Test Group"
 }
