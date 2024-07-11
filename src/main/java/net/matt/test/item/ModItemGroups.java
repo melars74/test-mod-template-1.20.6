@@ -32,10 +32,11 @@ public class ModItemGroups {
                         entries.add(ModItems.CARDBOARD);
                         //blocks
                         entries.add(ModBlocks.BOX_BLOCK);
+                        entries.add(ModBlocks.BOX_LAMP_BLOCK);
 
                     })).build());
 
     public static void registerItemGroups() {
-        TestMod.LOGGER.info("Registering Mod");
+        TestMod.LOGGER.info("Registering Item Groups for " + TestMod.MOD_ID);
     }
 }

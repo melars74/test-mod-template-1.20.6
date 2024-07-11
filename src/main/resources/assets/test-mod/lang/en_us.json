@@ -4,5 +4,7 @@
 
   "itemgroup.box": "Box Test Group",
 
-  "block.test-mod.box_block": "Block of Box :3"
+  "block.test-mod.box_block": "Block of Box :3",
+  "block.test-mod.box_lamp_block": "Block Lamp"
+
 }
